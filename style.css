@@ -114,13 +114,14 @@ body{
 @media only screen and (max-width: 1350px){
 .container{
     flex-direction: column;
+    margin-left: 0px;
 }
 
     .insurance-container{
         display: flex;
         flex-direction: column;
         flex-shrink: 5;
-        left: 0%;
+        /* margin-left: 0%; */
     }
     .offer-img-container{
         
@@ -135,9 +136,11 @@ body{
      .container1{
         display: flex;
         flex-direction: column;
+        margin-left: 0px;
     } 
     .container2{
         display: flex;
+        justify-content: space-evenly;
     
 
     }
@@ -162,7 +165,5 @@ body{
     }
     .container2{
         flex-direction: column;
-    
-
     }
-}    
+}
